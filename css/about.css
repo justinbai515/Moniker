@@ -1,0 +1,322 @@
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+
+/*This makes it so the background doesn't appear in the margins*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-color: #204862;
+  height: 230px;
+}
+
+.navBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  position: relative;
+  top: 149px;
+  font-size:35px;
+}
+
+
+.logo{
+  position: relative;
+  border: 0px;
+  bottom: 138px;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+/*Gets rid of the underlines on hyperlinks*/
+a:link{
+  text-decoration: none;
+  font-family: 'Francois One', sans-serif;
+  color: #eeddee;
+}
+
+a:visited{
+  color: #eeddee;
+}
+
+a:hover{
+  color: #ee81ee;
+}
+
+main{
+  background-image: url("background2.jpeg");
+  background-size:cover;
+  background-position: center;
+}
+
+#topBox{
+  position: relative;
+  border-radius: 40px;
+  background-color: rgba(251, 239, 63, 0.8);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 290px;
+}
+
+#topBox h6{
+  position: relative;
+  margin: 2%;
+  bottom: 25px;
+  font-family: 'Francois One', sans-serif;
+  color:#8740c5;
+  font-size: 60px;
+}
+
+#topBox p{
+  position: relative;
+  bottom:50px;
+  margin:2%;
+  font-family: 'Alata', sans-serif;
+  color:#8740c5;
+  font-size: 38px;
+}
+
+#quadBox{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#quadBox div{
+  position: relative;
+  background-color: #FFAB51;
+  border-radius: 40px;
+  padding: 20px;
+  margin:20px;
+  border: 10px solid #EBDEED;
+  width: 600px;
+  height: 800px;
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  color:#204862;
+}
+
+#quadBox img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#quadBox h1{
+
+  font-size: 45px;
+}
+
+#quadBox h2{
+  font-size: 40px;
+  position:relative;
+  bottom: 35px;
+}
+
+#quadBox p{
+  position: relative;
+  bottom:40px;
+  font-size: 30px;
+}
+
+.bottomBar{
+  position: relative;
+  bottom: 35px;
+  margin: auto;
+  text-align: center;
+  border: 6px solid #8740c5;
+  background-color: #ff84D2;
+  border-radius: 40px;
+  width: 650px;
+  height: 70px;
+  font-size: 50px;
+}
+
+.bottomBar a{
+    position: relative;
+    bottom: 1px;
+}
+
+.bottomBar a:link{
+  color: #fbef3f;
+}
+
+.bottomBar a:visited{
+  color: #fbef3f;
+}
+
+footer{
+  background-color: #204862;
+  height: 140px;
+}
+
+.footNav{
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  font-size: 35px;
+  top: 50px;
+}
+
+/* Nora was here :P */
+
+.emptyTop{
+  height: 200px;
+}
+
+.emptyMiddle{
+  height: 20px;
+}
+
+.emptyBottom{
+  height: 50px;
+}
+
+@media only screen and (max-width:1024px){
+
+  header{
+    background-color: #204862;
+    height: 60px;
+  }
+
+  main{
+    background-image: url("background2.jpeg");
+    background-size:cover;
+    background-position: auto;
+  }
+
+  .navBar{
+    font-size: 18px;
+    top:30px;
+  }
+
+  .logo{
+    position: relative;
+    width: 110px;
+    bottom: 28px;
+  }
+
+  #topBox{
+    position: relative;
+    border-radius: 40px;
+    background-color: rgba(251, 239, 63, 0.8);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    height:100%;
+  }
+
+  #topBox h6{
+    position: relative;
+    top:0px;
+    margin: 2%;
+    font-family: 'Francois One', sans-serif;
+    color:#8740c5;
+    font-size: 40px;
+  }
+
+  #topBox p{
+    position: relative;
+    top:1vh;
+    margin:2%;
+    font-family: 'Alata', sans-serif;
+    color:#8740c5;
+    font-size: 80%;
+  }
+
+  .bottomBar{
+    position: relative;
+    bottom: 35px;
+    margin: auto;
+    text-align: center;
+    border: 6px solid #8740c5;
+    background-color: #ff84D2;
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .bottomBar a{
+      position: relative;
+      top:10px;
+  }
+
+  #quadBox{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #quadBox div{
+    position: relative;
+    background-color: #FFAB51;
+    border-radius: 40px;
+    padding: 15px;
+    margin:10px;
+    border: 5px solid #EBDEED;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    color:#204862;
+  }
+
+  #quadBox img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  #quadBox h1{
+    font-size: 20px;
+  }
+
+  #quadBox h2{
+    font-size: 15px;
+    position:relative;
+    bottom: 10px;
+  }
+
+  #quadBox p{
+    position: relative;
+    bottom: 10px;
+    font-size: 10px;
+  }
+
+  footer{
+    background-color: #204862;
+    height: 70px;
+  }
+
+  .footNav{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    top: 25px;
+  }
+
+  .emptyTop{
+    height: 80px;
+  }
+
+  .emptyBottom{
+    height: 60px;
+  }
+
+}
